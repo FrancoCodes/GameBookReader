@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FBEAD7"
+    tools:context="com.development.gamebookreader.Library">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:layout_marginTop="200dp"
+        android:layout_weight="0" />
+
+    <GridLayout
+
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:columnCount="3"
+        android:orientation="horizontal">
+        <!-- Your items will be dynamically added here -->
+    </GridLayout>
+
+    <!-- Button to Pick Ebook File -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/pickFileButton"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-200dp"
+        android:background="@drawable/poopoocolor"
+        android:text="New File"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-500dp"
+        android:layout_weight="0"
+        android:text="Select GameBook"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:fontFamily="@font/aclonica" />
+</LinearLayout>

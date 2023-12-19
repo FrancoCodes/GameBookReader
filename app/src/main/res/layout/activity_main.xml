@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/visibilityToggleButton"
+        android:layout_width="53dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="0dp"
+        android:background="@drawable/samller"
+        android:contentDescription="Toggle Visibility"
+        android:src="@drawable/samller" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/theLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="#50FFFFFF"
+        android:padding="8dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/setPageToOneButton"
+            android:layout_width="118dp"
+            android:layout_height="50dp"
+            android:background="@drawable/almondcolor"
+            android:text="Set Page One" />
+
+        <TextView
+            android:id="@+id/pageNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginStart="200dp"
+            android:padding="8dp"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/theLinearTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="#50FFFFFF"
+        android:padding="8dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/enterPageNumber"
+            android:layout_width="61dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="120dp"
+            android:background="@drawable/almondcolor"
+            android:text="Enter" />
+
+        <EditText
+            android:id="@+id/pageNumberEditText"
+            android:layout_width="197dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:hint="Page Number"
+            android:inputType="number"
+            android:paddingStart="16dp"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+</FrameLayout>

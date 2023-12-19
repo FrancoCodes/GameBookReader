@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/GameBookReader/app/src/main/res/drawable/almondcolor.xml" value="0.3015" />
+        <entry key="..\:/GameBookReader/app/src/main/res/drawable/colograystyle.xml" value="0.2195" />
+        <entry key="..\:/GameBookReader/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2195" />
+        <entry key="..\:/GameBookReader/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2195" />
+        <entry key="..\:/GameBookReader/app/src/main/res/drawable/poopoocolor.xml" value="0.3015" />
+        <entry key="..\:/GameBookReader/app/src/main/res/drawable/title_item.xml" value="0.212" />
+        <entry key="..\:/GameBookReader/app/src/main/res/layout/activity_library.xml" value="0.2125" />
+        <entry key="..\:/GameBookReader/app/src/main/res/layout/activity_library_gallery.xml" value="0.3074074074074074" />
+        <entry key="..\:/GameBookReader/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/GameBookReader/app/src/main/res/layout/activity_splash.xml" value="0.31391200951248516" />
+        <entry key="..\:/GameBookReader/app/src/main/res/layout/ebook_page.xml" value="0.18697916666666667" />
+        <entry key="..\:/GameBookReader/app/src/main/res/layout/grid_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/GameBookReader/app/src/main/res/layout/item_ebook.xml" value="0.36666666666666664" />
+        <entry key="..\:/GameBookReader/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2195" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

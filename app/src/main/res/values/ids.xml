@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recyclerView" type="id" />
+    <dimen name="vertical_spacing">8dp</dimen> <!-- Adjust the spacing value as needed -->
+
+
+</resources>
